@@ -14,6 +14,6 @@ btn.addEventListener(`click`, function () {
   if (input.value >= result1 && input.value <= result) {
     response.textContent = `Hot`;
   } else {
-    response.textContent = `cold`;
+    response.textContent = `Cold`;
   }
 });
