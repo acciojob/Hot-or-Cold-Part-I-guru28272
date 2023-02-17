@@ -10,7 +10,7 @@ let result = Math.ceil(Math.random() * 20);
 let result1 = Math.floor(Math.random() * -20 - 1);
 
 btn.addEventListener(`click`, function () {
-  if (input.value >= result1 || input.value <= result) {
+  if (input.value >= result1 && input.value <= result) {
     response.textContent = `Hot`;
   } else {
     response.textContent = `cold`;
