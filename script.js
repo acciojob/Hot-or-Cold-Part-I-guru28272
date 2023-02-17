@@ -1,6 +1,6 @@
 //your code here
 
-// const input = document.querySelector(`#guess`);
+const input = document.querySelector(`#guess`);
 
 const btn = document.querySelector(`#btn`);
 
