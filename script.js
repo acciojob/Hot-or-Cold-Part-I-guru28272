@@ -4,7 +4,7 @@ const input = document.querySelector(`#guess`);
 
 const btn = document.querySelector(`#btn`);
 
-const response = document.querySelector(`#num`);
+const response = document.querySelector(`#respond`);
 
 let result = Math.ceil(Math.random() * 20);
 let result1 = Math.floor(Math.random() * -20 - 1);
