@@ -9,8 +9,11 @@ const response = document.querySelector(`#respond`);
 btn.addEventListener(`click`, function () {
   const randomNum = Math.floor(Math.random() * 40) - 20;
 	num.textContent = randomNum;
-	const diff = Number(guess.Value)-Number(randomNum);
+	const diff = Number(input.Value)-Number(randomNum);
 	if(diff <= 5){
-		
+		response.textContent = `Hot`;
+	}
+	else{
+		response.textContent = `Cold`;
 	}
 });
